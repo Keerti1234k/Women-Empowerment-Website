@@ -1,0 +1,419 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    justify-content: center;
+    cursor: pointer;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+    opacity:0.6;
+}
+
+#logo{
+    margin:auto 23px;    
+    height:100px;
+}
+#logo img{
+    width:70px;
+    height:70px;
+    border:2px solid white;
+    border-radius: 47px;
+    margin: 10px 25px;
+}
+
+#navbar ul{
+    display: flex;
+    width:60%;
+}
+#navbar ul {
+list-style: none;
+font-size: 1.8rem;
+padding: auto 3px;
+}
+#navbar ul li a{
+    display: block;
+    padding: 12px 22px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+
+}
+.login{
+    display:flex;
+    width:40%;
+    text-align:right;
+    
+}
+.log{
+    margin: auto;
+}
+.log a{
+   color: white;
+    text-decoration: none;
+    padding:10px 5px;
+    height:10px;
+    font-size:30px;
+    cursor: pointer;
+    
+}
+
+#navbar ul li a:hover{
+    color: rgb(12, 10, 10);
+    background-color: white;
+}
+.login .btn:hover{
+    color: rgb(206, 10, 10);
+    background-color: rgb(235, 25, 147);
+}
+.btn{
+    padding: 10px 10px;
+    background-color: red;
+    margin-left: auto;
+    /* border:5px solid white; */
+    cursor:pointer;
+    float: right;
+     border: 2px solid red;
+     color:white;
+
+}
+.btn p{
+    font-size: 1.8rem;
+    text-align: center;
+    color: white;
+    padding: 22px 16px;
+}
+.burger{
+
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height:4px;
+    margin:10px 10px;
+    
+}
+/* home */
+#home{
+    display:flex;
+    padding: 3px 150px;
+    justify-content: center;
+    align-items: center;
+    height:630px;
+    
+    
+}
+#home::before{
+    content: "";
+    background:url(img/bg.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 85%;
+    width:100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: .8;
+
+
+}
+.firsthalf{
+    width:80%;
+    justify-content: center;
+}
+.secondhalf{
+    width:20%;
+    justify-content: center;
+}
+.firsthalf p{
+    color: white;
+    font-size: 4rem;
+    font-family: 'Gloria Hallelujah', cursive;
+    display: block;
+}
+
+#goals{
+    display: flex;
+    width: 100%;
+}
+.box1{
+/* border:2px solid red; */
+width:100%;
+background-color: rgb(247, 45, 139);
+}
+.box2{
+    /* border:2px solid green; */
+    width: 100%;
+    background-color: rgb(84, 239, 245);
+
+}
+.box3{
+    /* border:2px solid rgb(19, 171, 209); */
+    width: 100%;
+    background-color: rgb(12, 15, 168);
+
+}
+#goals h1,p{
+    color: white;
+    padding: 12px 4px;
+    text-align: center;
+}
+#goals h1{
+    font-size: 42px;
+    text-align: center;
+}
+
+#goals p{
+    font-size: 32px;
+}
+/* contest section */
+/* ungoing */
+.contest-container{
+    margin: 30px 50px;   
+}
+#contest{
+    display: flex;
+    margin: 30px 100px;   
+}
+.primary-center{
+    text-align: center;
+    font-size: 60px;
+}
+.secondary-center{
+    text-align: center;
+    font-size: 30px;
+}
+#contest .cont1{
+    border: 2px solid brown;
+    padding: 40px;
+    margin:3px 8px;
+    background-color:rgb(245, 218, 218);
+    border-radius: 10px;
+}
+
+#contest .cont1 img{
+    height:260px;
+    display: block; margin: auto;
+    width:400px;
+    padding: 10px 20px;
+}
+.btn2{
+    background-color: red;
+    border: 2px solid red;
+    color: white;
+    width: 100px;
+    display: block;
+    margin: auto;
+    padding: 10px 10px;
+}
+/* upcoming */
+.upcoming-container{
+    margin:auto;
+}
+#upcoming{
+    border-bottom: 2px solid grey;
+    display:flex;
+    padding:auto 30px;
+    margin:25px 0px;
+    background-color:honeydew;
+}
+#date{
+   font-size:45px;
+   float:right;
+   color: black;
+}
+.dm1{
+    width:5%;
+    font-size: 30px;
+}
+.dm2{
+    width:5%;
+    display: flex;
+    flex-direction: column;
+}
+.dm3{
+    width:65%;
+}
+.bttn3{
+    width:25%;
+}
+.dm2 p{
+    padding-left: 0px;
+    padding-top:2px;
+    float: left;
+    color: rgba(0, 0, 0, 0.5);
+}
+.dm3 p{
+    font-size: 30px;
+    padding-left: 0px;
+    margin: auto 0px;
+    color: black;
+    float: left;
+}
+
+.btn3{
+    color: white;
+    background-color: rgb(245, 11, 175);
+    border:2px solid rgb(255, 62, 175);
+    margin:auto;
+    padding:10px 10px;
+    font-size: 25px;
+    width: 245px;
+}
+.donate{
+    display:flex;
+    margin:0px auto;
+    width: 100%;
+}
+.part1{
+    border:2px solid green;
+    width:100%;
+    background-color: blue;
+}
+.part1 h1{
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+.btn-wrap{
+    margin:40px 450px;
+    height:100px;
+    width:150px;
+    color: white;
+    padding: 20px 10px;
+    font-size: 38px;
+    border: 2px solid red;
+    background-color: red;
+}
+.part1 h2{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+.part2{
+    width: 100%;
+
+}
+.part2 img{
+    height:100%;
+    width:100%;
+}
+/* contact */
+.contact{
+    display:flex;
+    background-color: rgb(233, 233, 233);
+}
+.block1{
+    width:100%;
+}
+.block2{
+    width:100%;
+    text-align: center;
+    font-size:30px;
+    padding:20px auto;
+}
+.block2 h1,h2{
+    margin:35px auto;
+}
+#email{
+    width:250px;
+    height:30px;
+}
+.block3{
+    width:100%;
+    text-align: center;
+    font-size: 30px;
+    
+    
+}
+.block3 ul{
+    display:flex;
+    flex-direction: column;
+    padding:10px 10px;
+    list-style: none;
+    
+}
+.block3 ul li a{
+    color: black;
+    padding:10px 10px;
+    list-style: none;
+    font-size: 25px;
+}
+.btn4{
+    font-size:25px;
+}
+.btn4:hover{
+    font-size:25px;
+    color:black;
+    background-color: gray;
+    cursor: pointer;
+}
+
+/* social media */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin:5px auto;
+    border-radius: 10px;
+    padding:25px 20px;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    margin:5px auto;
+    border-radius: 10px;
+    padding:25px 20px;
+    font-size: 30px;
+  }
+  .fa-instagram {
+    background: orangered;
+    color: white;
+    border-radius: 10px;
+    padding:25px 20px;
+    margin:5px auto;
+  }
+  
+  .sm{
+       
+      display:flex;
+      flex-direction: column;
+      margin-top: 5px;
+      margin-bottom: 5px;
+  }
+  footer{
+      background-color: rgb(15, 29, 58);
+      color:white;
+      text-align: center;
+      padding:15px 10px;
+      height:30px;
+  }
+    

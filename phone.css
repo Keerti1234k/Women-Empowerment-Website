@@ -1,0 +1,71 @@
+/* navigation */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul{
+    font-size: 1.2rem;
+     flex-direction: column;
+     text-align: center;
+}
+
+.login{
+    flex-direction: column;
+    text-align: center;
+    padding:10px 10px;
+}
+.log{
+    padding:10px 10px;
+}
+
+/* home */
+#home:{
+    height:596px;
+};
+#home::before{
+   
+    height:160%;
+}
+#home p{
+    text-align: center;
+    margin:auto 10px;
+}
+.sm{
+    margin:auto -40px;
+}
+.dm3 {
+    width: 180%;
+    border: 2px solid brown;
+    margin: 0px -2px;
+}
+.btn3 {
+    color: white;
+    background-color: rgb(247 45 139);
+    margin: auto 51px;
+    padding: 10px 17px;
+    font-size: 25px;
+    width: 450px;
+}
+/* goal-container */
+/* contest-container */
+/* ongoing */
+.contest-container{
+
+}
+#contest{
+    flex-direction: column;
+
+}
+#contest .cont1{
+
+}
+/* upcoming */
+.upcoming-container{
+    flex-direction: column;
+}
+.donate{
+    flex-direction: column;
+}
+.btn-wrap{
+    margin:50px 307px;
+}
+/* contact */
