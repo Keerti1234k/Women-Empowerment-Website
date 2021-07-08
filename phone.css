@@ -97,10 +97,14 @@ section#home {
     flex-direction: column;
 
 }
+.cont1{
+    width:100%;
+    justify-content:center;
+}
 #contest .cont1 img{
     height:170px;
-    width:190px;
-    margin:auto -29px;
+    width:100%;
+    margin:auto;
 
 }
 /* upcoming */
