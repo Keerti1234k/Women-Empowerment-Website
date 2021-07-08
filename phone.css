@@ -1,29 +1,50 @@
 /* navigation */
-#navbar{
+navbar{
     flex-direction: column;
+    height:650px;
+    transition:all 0.7s ease-out;
 }
-#navbar ul{
+.navbar ul{
     font-size: 1.2rem;
      flex-direction: column;
      text-align: center;
+     margin:auto;
 }
 
 .login{
     flex-direction: column;
     text-align: center;
     padding:10px 10px;
+    margin:auto;
 }
 .log{
     padding:10px 10px;
 }
+.burger{
+   display: block;
 
+}
+.btn{
+    margin:auto;
+}
+.h-nav{
+    height:92px;
+}
+.v-class{
+    opacity:0;
+}
+nav.navbar.h-nav::before{
+    height:45px;
+}
 /* home */
-#home:{
-    height:596px;
-};
+
 #home::before{
    
-    height:160%;
+    height:116%;
+}
+section#home {
+    flex-direction: column-reverse;
+    height:652px;
 }
 #home p{
     text-align: center;
@@ -31,19 +52,40 @@
 }
 .sm{
     margin:auto -40px;
+    flex-direction: row;
+}
+.firsthalf{
+    width: 100%;
+}
+.secondhalf{
+    width:80%;
+}
+.fa{
+    padding:13px 5px;
+}
+.dm1{
+    width:10%;
 }
 .dm3 {
-    width: 180%;
-    border: 2px solid brown;
+    width: 50%;
+    
     margin: 0px -2px;
+}
+.dm3 p{
+    margin:auto;
+    padding:auto;
+}
+.bttn3{
+    width:33%;
 }
 .btn3 {
     color: white;
     background-color: rgb(247 45 139);
-    margin: auto 51px;
+    margin: auto 10px;
     padding: 10px 17px;
     font-size: 25px;
-    width: 450px;
+    width: 150px;
+    
 }
 /* goal-container */
 /* contest-container */
@@ -55,7 +97,10 @@
     flex-direction: column;
 
 }
-#contest .cont1{
+#contest .cont1 img{
+    height:170px;
+    width:190px;
+    margin:auto -29px;
 
 }
 /* upcoming */
@@ -64,8 +109,15 @@
 }
 .donate{
     flex-direction: column;
+    text-align: center;
 }
 .btn-wrap{
-    margin:50px 307px;
+    margin:auto;
 }
 /* contact */
+.contact{
+    flex-direction: column;
+}
+.block3{
+    margin:10px;
+}
